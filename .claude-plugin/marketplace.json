@@ -1,0 +1,35 @@
+{
+  "name": "romeoseo",
+  "owner": {
+    "name": "RomeoSEO",
+    "email": "team@romeoseo.com"
+  },
+  "metadata": {
+    "description": "Free SEO skills from RomeoSEO.",
+    "version": "3.0.0"
+  },
+  "plugins": [
+    {
+      "name": "romeo-seo",
+      "source": "./",
+      "description": "47 free SEO, AEO, LLM SEO and GEO skills from RomeoSEO: technical and on-page audits, keyword research, briefs, writing, schema, AI search visibility with optional DataForSEO tracking, parasite SEO, local and e-commerce.",
+      "version": "3.0.0",
+      "category": "marketing",
+      "homepage": "https://romeoseo.com/skills",
+      "keywords": [
+        "seo",
+        "aeo",
+        "geo",
+        "llm-seo",
+        "ai-search",
+        "technical-seo",
+        "keyword-research",
+        "schema",
+        "parasite-seo",
+        "dataforseo",
+        "local-seo",
+        "ecommerce"
+      ]
+    }
+  ]
+}
