@@ -1,6 +1,6 @@
 # RomeoSEO SEO, AEO, LLM SEO and GEO skills
 
-47 free skills for AI agents. Each one is a Markdown file that teaches your agent to do one search job properly: audit a site, find keywords worth chasing, write a brief, check a draft, fix schema, get cited and recommended in ChatGPT, Google AI Overviews and Perplexity (AEO, LLM SEO, GEO), and do parasite SEO on LinkedIn, YouTube and Reddit without getting banned.
+48 free skills for AI agents. Each one is a Markdown file that teaches your agent to do one search job properly: audit a site, find keywords worth chasing, write a brief, check a draft, fix schema, get cited and recommended in ChatGPT, Google AI Overviews and Perplexity (AEO, LLM SEO, GEO), and do parasite SEO on LinkedIn, YouTube and Reddit without getting banned.
 
 Have a [DataForSEO](https://dataforseo.com) account? The AEO skills include the exact API calls, typical costs and a spending cap, and `dataforseo-ai-tracker` runs AI visibility tracking at scale. Every skill still works without it.
 
@@ -159,11 +159,12 @@ For businesses with a map pin or a checkout.
 
 ### Publish
 
-Get approved work into your CMS without surprises.
+Get approved work into your CMS and measure what happens after it goes live.
 
 | Skill | What it does |
 | --- | --- |
 | [`cms-publishing-adapter`](skills/cms-publishing-adapter/SKILL.md) | Turn content that passed QA into a CMS draft, document, or static-site package, with field checks and readback. |
+| [`posthog-change-impact`](skills/posthog-change-impact/SKILL.md) | Create a PostHog report for each website change and review whether it improved the outcome your business cares about. |
 
 ## Where to start
 
@@ -172,7 +173,7 @@ Get approved work into your CMS without surprises.
 - **I want more traffic.** `site-content-inventory` → `seo-performance-audit` → `title-meta-ctr` → `internal-linking-plan` → `seo-opportunity-research` → `topic-cluster-map` → `seo-content-brief`
 - **I want to show up in ChatGPT.** `ai-search-visibility` → `ai-prompt-research` → `ai-agent-readiness` → `ai-brand-facts` → `ai-citable-pages` → `best-of-list-inclusion` → `ai-traffic-analytics`
 - **I want to rank on bigger sites.** `parasite-seo-plan` → `linkedin-for-ai-search` → `reddit-quora-answers` → `page-to-social-posts` → `sponsored-placement-vetting`
-- **I'm moving or redesigning.** `seo-change-monitor` → `site-migration-check` → `xml-sitemap-check`
+- **I'm moving or redesigning.** `seo-change-monitor` → `site-migration-check` → `xml-sitemap-check` → `posthog-change-impact`
 - **I run a local business.** `local-seo-audit` → `local-ai-visibility` → `reviews-for-ai-answers` → `schema-markup` → `on-page-seo-review`
 - **I run an online shop.** `ecommerce-seo-audit` → `ai-shopping-visibility` → `technical-seo-audit` → `schema-markup` → `image-seo`
 - **I have a draft to check.** `seo-content-qa` → `search-intent-match` → `cms-publishing-adapter` → `on-page-seo-review`

@@ -187,7 +187,7 @@ the site, and most later skills get much better with it.
   `on-page-seo-review`. Gather: the draft, the target search, the brief if
   any, your product facts.
 
-### All 47 skills
+### All 48 skills
 
 **Start**
 - `seo-start-here`: a few questions and a quick look, then which skills, in what order.
@@ -251,6 +251,7 @@ the site, and most later skills get much better with it.
 
 **Publish**
 - `cms-publishing-adapter`: approved content into a CMS draft or static-site package.
+- `posthog-change-impact` measures website changes against business goals in PostHog.
 
 ## What to hand back
 
