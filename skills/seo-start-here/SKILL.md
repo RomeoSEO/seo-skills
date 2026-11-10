@@ -187,7 +187,7 @@ the site, and most later skills get much better with it.
   `on-page-seo-review`. Gather: the draft, the target search, the brief if
   any, your product facts.
 
-### All 48 skills
+### All 49 skills
 
 **Start**
 - `seo-start-here`: a few questions and a quick look, then which skills, in what order.
@@ -217,6 +217,7 @@ the site, and most later skills get much better with it.
 - `seo-content-brief`: turn a chosen opportunity into a precise brief.
 - `seo-blog-writer`: write the draft from an approved brief.
 - `comparison-page-writer`: honest "best X", "X vs Y" and "alternatives" pages.
+- `landing-page-writer`: complete product and feature landing pages from your own proof and screenshots.
 - `seo-content-qa`: score a draft before it ships.
 - `title-meta-ctr`: better titles and descriptions for pages that get seen but not clicked.
 - `eeat-trust-review`: experience, expertise and trust signals.

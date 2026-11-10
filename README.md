@@ -1,6 +1,6 @@
 # RomeoSEO SEO, AEO, LLM SEO and GEO skills
 
-48 free skills for AI agents. Each one is a Markdown file that teaches your agent to do one search job properly: audit a site, find keywords worth chasing, write a brief, check a draft, fix schema, get cited and recommended in ChatGPT, Google AI Overviews and Perplexity (AEO, LLM SEO, GEO), and do parasite SEO on LinkedIn, YouTube and Reddit without getting banned.
+49 free skills for AI agents. Each one is a Markdown file that teaches your agent to do one search job properly: audit a site, find keywords worth chasing, write a brief, check a draft, fix schema, get cited and recommended in ChatGPT, Google AI Overviews and Perplexity (AEO, LLM SEO, GEO), and do parasite SEO on LinkedIn, YouTube and Reddit without getting banned.
 
 Have a [DataForSEO](https://dataforseo.com) account? The AEO skills include the exact API calls, typical costs and a spending cap, and `dataforseo-ai-tracker` runs AI visibility tracking at scale. Every skill still works without it.
 
@@ -110,6 +110,7 @@ Briefs, drafts, rewrites, and the checks before anything ships.
 | [`seo-content-brief`](skills/seo-content-brief/SKILL.md) | Turn a research finding into a precise brief, with search intent, structure, product facts, and the right internal links. |
 | [`seo-blog-writer`](skills/seo-blog-writer/SKILL.md) | Write a useful first draft from an approved brief, with clear answers, specific examples, and your brand voice. |
 | [`comparison-page-writer`](skills/comparison-page-writer/SKILL.md) | Write "best X", "X vs Y", and "X alternatives" pages that give a straight verdict and stay honest about every option. |
+| [`landing-page-writer`](skills/landing-page-writer/SKILL.md) | Build or fill out a product or feature landing page from your own proof, pricing and real screenshots, with every claim sourced. |
 | [`seo-content-qa`](skills/seo-content-qa/SKILL.md) | Check intent, usefulness, human voice, facts, links, and publishing readiness before a draft leaves your desk. |
 | [`title-meta-ctr`](skills/title-meta-ctr/SKILL.md) | Find pages that get seen but not clicked, then rewrite their titles and descriptions with a safe way to test the change. |
 | [`eeat-trust-review`](skills/eeat-trust-review/SKILL.md) | See your page and site the way a quality rater would: who wrote it, why trust it, and what proof is missing. |
