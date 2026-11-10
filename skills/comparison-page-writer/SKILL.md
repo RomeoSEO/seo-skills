@@ -154,6 +154,10 @@ review-site pages and a Reddit search are enough for "why people leave".
 6. **Collect evidence of use.** At least one screenshot per product:
    - Prefer your own captures from a real account; caption what it shows and
      the capture date; write alt text that describes the screen.
+   - Use test or demo data when possible. Before saving or sharing a capture,
+     check for names, contact details, customer records, credentials and other
+     private information; remove or obscure them without misrepresenting the
+     product. Get the user's permission before sharing any private data.
    - Never edit a screenshot in a way that misrepresents the product.
    - Not tested hands-on? Say how it was judged ("from documentation and the
      free plan").

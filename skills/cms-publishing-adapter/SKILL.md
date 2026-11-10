@@ -53,7 +53,7 @@ Turn approved SEO content into a CMS draft, document, static-site file, or manua
 
 ### No tools?
 
-Without API or repo access, produce the manual handoff package (below) plus a publishing checklist the user follows in their CMS editor. Ask for the content model; a screenshot of the CMS post editor's fields is enough. After the user saves the draft, ask for the preview URL or a screenshot and do the readback yourself: view-source for the title, meta description, canonical, robots meta and JSON-LD; check that headings, tables, images and FAQs rendered rather than showing raw Markdown or escaped HTML; paste the JSON-LD into Rich Results Test.
+Without API or repo access, produce the manual handoff package (below) plus a publishing checklist the user follows in their CMS editor. Ask for the content model; a screenshot of the CMS post editor's fields is enough. After the user saves the draft, ask for the preview URL or a screenshot and do the readback yourself: view-source for the title, meta description, canonical, robots meta and JSON-LD; check that headings, tables, images and FAQs rendered rather than showing raw Markdown or escaped HTML. Validate JSON-LD locally where possible. Google's Rich Results Test sends the supplied URL or code to Google: use it for unpublished content only after explaining the transfer and getting the user's permission, or leave that check for the user.
 
 ## Ground rules
 

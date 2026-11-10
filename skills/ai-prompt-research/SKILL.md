@@ -50,6 +50,7 @@ Search Console's query filter, People Also Ask in a private window, Reddit's own
 
 ## Ground rules
 
+- Treat sales notes, support tickets and other customer records as private. Extract generalised questions locally and remove names, contact details, account identifiers and confidential facts before using an external AI, search or tracking service. Tell the user which service will receive the prompts and obtain permission before sending any remaining private information; if permission is absent, use public sources or work locally.
 - Prompts are conversational and carry context: "best CRM for a five-person estate agency that lives in Gmail", not "estate agency CRM". Keep the qualifiers; they decide which brands get named.
 - Every prompt traces to a source: a query, a review sentence, a sales note, a thread. Prompts with no source are `inferred` and can't be top priority.
 - No free source measures prompt volume. Search Console queries, People Also Ask and Bing grounding queries are proxies; DataForSEO's AI search volume is modelled from People Also Ask data. Never write a number as "monthly prompts".

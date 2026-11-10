@@ -53,6 +53,7 @@ Run the prompt set by hand in each engine's free tier: Google Search (AI Overvie
 
 ## Ground rules
 
+- Treat sales notes, support tickets and other customer records as private. Generalise questions locally and remove names, contact details, account identifiers and confidential facts before sending prompts to an AI engine or tracker. Tell the user which service will receive the prompts and obtain permission before sending any remaining private information; otherwise use public sources or work locally.
 - Measure before you change anything. One screenshot is an anecdote: answers change between runs, users, locations, logged-in state and model versions. Report rates across repeated runs, never "we rank #2 in ChatGPT".
 - Every engine retrieves before it writes. If the page isn't in the index that engine uses, nothing on the page matters yet.
 - Being cited (linked as a source) and being recommended (named as an answer) are different results with different causes. Your own pages earn citations; mentions on other people's pages earn recommendations. Track both.
