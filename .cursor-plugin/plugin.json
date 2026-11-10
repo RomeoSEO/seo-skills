@@ -1,0 +1,11 @@
+{
+  "name": "romeoseo-skills",
+  "version": "3.0.0",
+  "description": "Free SEO, AI search visibility, and content workflow skills from RomeoSEO.",
+  "author": { "name": "RomeoSEO", "email": "team@romeoseo.com" },
+  "homepage": "https://romeoseo.com/skills",
+  "repository": "https://github.com/RomeoSEO/seo-skills",
+  "license": "MIT",
+  "keywords": ["seo", "aeo", "geo", "ai-search", "content", "marketing"],
+  "logo": "https://romeoseo.com/romeo/romeo-directory-logo.png"
+}
