@@ -46,11 +46,12 @@ Check whether a store's products appear when people ask ChatGPT, Google AI Mode 
 
 ### No tools?
 
-Run the shopping prompts by hand in ChatGPT, Google (AI Mode), Gemini and Perplexity, logged out or with memory off, set to the store's country. Screenshot every product card and log the product, price shown, merchant shown, rating and stock status, then open the store's product page the same day and compare. Merchant Center is free. Open the feed export in a spreadsheet and sort each column to find blanks. Test 5 product pages in the Rich Results Test and read view-source to see whether price, stock and specs are in the HTML.
+Run the shopping prompts by hand in ChatGPT, Google (AI Mode), Gemini and Perplexity, logged out or with memory off, set to the store's country. Screenshot every product card and log the product, price shown, merchant shown, rating and stock status, then open the store's product page the same day and compare. Merchant Center is free. Open the feed export in a spreadsheet and sort each column to find blanks. Test 5 public product pages in the Rich Results Test and read view-source to see whether price, stock and specs are in the HTML. The test sends the URL or code to Google; for unpublished or private pages, explain that transfer and get the user's permission first, or validate locally.
 
 ## Ground rules
 
-- Product data feeds are the main way in. Google tells merchants to keep Merchant Center data current for its AI features; ChatGPT takes Shopify and Etsy catalogues and approved merchants' feeds. Good pages can't make up for a missing or wrong feed.
+- Product data feeds are an important route in. Google tells merchants to keep Merchant Center data current for its AI features; ChatGPT uses product data from partners and approved merchants' feeds. Check each store's eligibility and connection status. Good pages can't make up for a missing or wrong feed.
+- Treat catalogue exports, unreleased products and private business data as confidential. Generalise prompts and remove personal identifiers or confidential details locally before using an external AI engine or tracker. Name the receiving service and get the user's permission before sending any remaining private information; otherwise use public data or work locally.
 - One price, one stock status, everywhere: feed, product page, markup and checkout. Mismatches get items disapproved in Merchant Center and quoted wrong in AI answers.
 - Identifiers are how engines match your offer to the same product elsewhere. Keep item IDs stable, use the manufacturer's GTIN, and never invent one; only genuinely custom or handmade goods go without.
 - OpenAI says it ranks merchants on factors like availability, price, quality, and whether the merchant makes or primarily sells the item. A reseller charging more than the maker for the same thing won't out-optimise that.
@@ -64,7 +65,7 @@ Run the shopping prompts by hand in ChatGPT, Google (AI Mode), Gemini and Perple
 
 1. **Map the routes in, engine by engine.** These programmes change fast: check each vendor's current docs before relying on this list, and record a status for each (live, pending, not started, not eligible).
    - Google AI Mode, AI Overviews and Gemini: Merchant Center. Products approved and shown on Google's free listings surfaces, shipping and return policies set at account level, and local inventory linked to the Business Profile if there are stores. Item issues on money products: `Fix now`.
-   - ChatGPT: Shopify and Etsy stores' catalogues are already connected, per OpenAI (check the store's Shopify settings for what is shared). Other merchants apply at chatgpt.com/merchants to send a feed in OpenAI's Product Feed spec (developers.openai.com/commerce); OpenAI describes feed onboarding as open to approved partners.
+   - ChatGPT: Shopify product data is integrated through Shopify Catalog; check the store's current eligibility, settings and what is shared. Check current OpenAI and platform documentation for other partner routes, including Etsy, rather than assuming a store is connected. Direct product-feed onboarding is available to approved partners: see developers.openai.com/commerce/guides/get-started.
    - ChatGPT also reads the open web: robots.txt and the CDN must let OAI-SearchBot fetch product pages (`ai-agent-readiness`).
    - Perplexity: has run shopping features and a merchant programme; check Perplexity's current documentation for eligibility and how to submit product data. PerplexityBot must be able to crawl product pages.
    - Microsoft Copilot shows shopping results too, fed through Microsoft Merchant Center; check Microsoft's current docs if Copilot matters to the audience.
@@ -103,12 +104,12 @@ Run the shopping prompts by hand in ChatGPT, Google (AI Mode), Gemini and Perple
    - Maker or primary seller: on own-brand products, make the store clearly the official source (consistent brand name, "official store", the brand's About page linked). If resellers or marketplaces outrank you with stale prices, decide with the owner whether to tighten reseller data or pricing rules; that's a business call, not SEO.
    - Quality: store-level ratings where offered (Merchant Center's store quality signals, OpenAI's `store_star_rating` and `store_review_count`), shipping speed and returns that match what the feed promises.
 7. **Work the third-party sources.** From the cited sources in step 3, list the gift guides, "best X" roundups, review sites, YouTube reviews and forum threads that keep appearing.
-   - Does each include your product, at the right price and model? Missing: offer a sample for honest review, with no payment for a positive verdict. Wrong: send a correction with evidence.
+   - Does each include your product, at the right price and model? Missing: draft an offer of a sample for honest review, with no payment for a positive verdict. Wrong: draft a correction with evidence. Get the user's approval before contacting anyone or offering a sample.
    - Affiliate or sponsored placements must be disclosed on the page and their links marked `rel="sponsored"`.
    - Outreach kit and log → `best-of-list-inclusion`; video → `youtube-for-ai-answers`; review platforms → `reviews-for-ai-answers`.
 8. **Fix wrong details in AI answers.** For each wrong price, stock status, spec or merchant:
    - Trace it: feed lag, a cached or stale page, a marketplace listing, a reseller, an old review article quoting launch price, a discontinued variant still in the feed.
-   - Fix the source (feed, page, Merchant Center, the third-party page), then use the engine's feedback control on the answer.
+   - Propose a fix for the source (feed, page, Merchant Center, the third-party page), then draft feedback for the engine. Get permission for each live change and approval before sending feedback or contacting a third party.
    - Re-run the prompt after the fix and log the date; nobody publishes how long updates take.
 9. **Decide on agentic checkout, cautiously.** Discovery data comes first; checkout inside AI surfaces is changing quickly.
    - Google: the Universal Commerce Protocol lets select merchants add checkout inside AI Mode and Gemini for products eligible in the US, Canada and Australia, through an early-access programme. The merchant stays seller of record and listings need checkout eligibility set in Merchant Center. Check current Merchant Center help for status and requirements.
