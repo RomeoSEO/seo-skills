@@ -1,6 +1,6 @@
 # RomeoSEO SEO, AEO, LLM SEO and GEO skills
 
-48 free skills for AI agents. Each one is a Markdown file that teaches your agent to do one search job properly: audit a site, find keywords worth chasing, write a brief, check a draft, fix schema, get cited and recommended in ChatGPT, Google AI Overviews and Perplexity (AEO, LLM SEO, GEO), and do parasite SEO on LinkedIn, YouTube and Reddit without getting banned.
+49 free skills for AI agents. Each one is a Markdown file that teaches your agent to do one search job properly: audit a site, find keywords worth chasing, write a brief, check a draft, fix schema, get cited and recommended in ChatGPT, Google AI Overviews and Perplexity (AEO, LLM SEO, GEO), and do parasite SEO on LinkedIn, YouTube and Reddit without getting banned.
 
 Have a [DataForSEO](https://dataforseo.com) account? The AEO skills include the exact API calls, typical costs and a spending cap, and `dataforseo-ai-tracker` runs AI visibility tracking at scale. Every skill still works without it.
 
@@ -124,6 +124,7 @@ Answer engine optimization: get cited and recommended in ChatGPT, AI Overviews, 
 | [`ai-search-visibility`](skills/ai-search-visibility/SKILL.md) | Find out whether ChatGPT, Google AI Overviews, Perplexity, and Copilot mention you, and what to change so they do. |
 | [`ai-prompt-research`](skills/ai-prompt-research/SKILL.md) | Find the questions your buyers actually ask ChatGPT and AI search, with demand estimates, so you track and write for the right prompts. |
 | [`ai-brand-facts`](skills/ai-brand-facts/SKILL.md) | Find every wrong or outdated thing AI engines say about your business, trace it to its source, and fix it there. |
+| [`chatgpt-business-profile`](skills/chatgpt-business-profile/SKILL.md) | Get your business ready to claim its profile in ChatGPT: check what ChatGPT says today, fix the site, then write the profile and Business Agent test questions. |
 | [`ai-citable-pages`](skills/ai-citable-pages/SKILL.md) | Rewrite a page section by section so AI engines can quote accurate, self-contained answers that name you. |
 | [`query-fan-out-coverage`](skills/query-fan-out-coverage/SKILL.md) | Map the follow-up searches AI engines run behind a question, and make sure your site has a good answer for each. |
 | [`google-ai-overviews-audit`](skills/google-ai-overviews-audit/SKILL.md) | See what AI Overviews and AI Mode are doing to your Google traffic, page by page, using Search Console's new AI report. |
@@ -192,7 +193,7 @@ The same rules run through the whole library, so the skills chain together and y
 
 ## Want it done for you?
 
-[RomeoSEO](https://romeoseo.com) runs this kind of work every day: it audits your site, finds what's worth doing, writes the change, and opens a pull request you approve.
+[RomeoSEO](https://romeoseo.com) runs this kind of work every day: it audits your site, finds what's worth doing, writes the article or the fix, and sends it to your site. You can also ask it anything in Chat with Romeo.
 
 ## License
 

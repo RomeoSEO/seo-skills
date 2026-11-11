@@ -64,7 +64,7 @@ the site, and most later skills get much better with it.
   blocks everything, a traffic crash or a site move next week goes first,
   whatever else was asked.
 - **Fewest skills that solve the problem.** Two to four in the first
-  sequence, each with one line of why. Not all forty-seven.
+  sequence, each with one line of why. Not all forty-nine.
 - **Match how hands-on they are.** "Do it for me" → skills that produce
   drafts and lists. "Show me how" → explain each step. "Just tell me what's
   wrong" → the audits, with priorities.
@@ -187,7 +187,7 @@ the site, and most later skills get much better with it.
   `on-page-seo-review`. Gather: the draft, the target search, the brief if
   any, your product facts.
 
-### All 48 skills
+### All 49 skills
 
 **Start**
 - `seo-start-here`: a few questions and a quick look, then which skills, in what order.
@@ -226,6 +226,7 @@ the site, and most later skills get much better with it.
 - `ai-search-visibility`: get cited in AI Overviews, AI Mode, ChatGPT, Perplexity, Copilot, Claude.
 - `ai-prompt-research`: the prompts buyers ask AI tools, with demand signals, in priority order.
 - `ai-brand-facts`: find what AI gets wrong about the brand, trace it to the source, fix it there.
+- `chatgpt-business-profile`: claim and set up the business in ChatGPT's Business Hub, profile and agent tests included.
 - `ai-citable-pages`: restructure a page so AI can lift accurate, self-contained answers.
 - `query-fan-out-coverage`: the sub-questions behind a money prompt, mapped to pages, gaps filled.
 - `google-ai-overviews-audit`: Search Console's AI data: cited, shown but not cited, losing clicks.
