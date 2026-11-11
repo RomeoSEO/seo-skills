@@ -165,7 +165,7 @@ Fill in this template.
 
 ## Next step
 
-- For a partial match or a new page type, run `seo-content-brief` with this report as the intent and results section.
+- For a partial match or a new page type, run `seo-content-brief` with this report as the intent and results section. When the page needed is a product, feature or service landing page, run `landing-page-writer` instead.
 - For a match, run `on-page-seo-review` on the page, then `title-meta-ctr` if it ranks but earns few clicks.
 - If an AI Overview dominates the results, run `ai-search-visibility` for this query.
 
