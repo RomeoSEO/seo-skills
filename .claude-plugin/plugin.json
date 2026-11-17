@@ -23,5 +23,10 @@
     "local-seo",
     "ecommerce"
   ],
-  "icon": "./.claude-plugin/icon.png"
+  "icon": "./.claude-plugin/icon.png",
+  "displayName": "RomeoSEO Skills",
+  "privacyPolicyUrl": "https://romeoseo.com/privacy",
+  "supportUrl": "https://romeoseo.com/about",
+  "documentationUrl": "https://romeoseo.com/skills",
+  "termsOfServiceUrl": "https://romeoseo.com/terms"
 }
