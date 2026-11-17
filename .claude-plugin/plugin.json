@@ -22,5 +22,6 @@
     "dataforseo",
     "local-seo",
     "ecommerce"
-  ]
+  ],
+  "icon": "./.claude-plugin/icon.png"
 }
