@@ -2,7 +2,7 @@
 
 50 free skills for AI agents. Each one is a Markdown file that teaches your agent to do one search job properly: audit a site, find keywords worth chasing, write a brief, check a draft, fix schema, get cited and recommended in ChatGPT, Google AI Overviews and Perplexity (AEO, LLM SEO, GEO), and do parasite SEO on LinkedIn, YouTube and Reddit without getting banned.
 
-Have a [DataForSEO](https://dataforseo.com) account? The AEO skills include the exact API calls, typical costs and a spending cap, and `dataforseo-ai-tracker` runs AI visibility tracking at scale. Every skill still works without it.
+Have a [DataForSEO](https://dataforseo.com) account? Some AEO skills include optional API calls, typical costs and a spending cap. The `dataforseo-ai-tracker` skill requires an account for automated tracking and describes a manual alternative for users without one.
 
 They work in Claude Code, Codex, and any agent that loads `SKILL.md` folders. You can also attach a single file to ChatGPT or Claude.
 
@@ -12,11 +12,9 @@ Browse them, read each file before you install it, and copy one-line installs at
 
 ## Install
 
-**Everything, with git**
-
-```bash
-git clone --depth 1 https://github.com/RomeoSEO/seo-skills.git && bash seo-skills/install.sh
-```
+This branch packages the skills for Grok Build. Install RomeoSEO from the
+Grok Build plugin marketplace once its listing is approved. No install script,
+hooks, or MCP server are needed to use the skills in this package.
 
 **Claude Code plugin**
 
@@ -25,30 +23,12 @@ git clone --depth 1 https://github.com/RomeoSEO/seo-skills.git && bash seo-skill
 /plugin install romeo-seo@romeoseo
 ```
 
-**Without git**
-
-```bash
-curl -fsSL https://romeoseo.com/skills/install.sh | bash
-```
-
-**One skill only**
-
-```bash
-curl -fsSL --create-dirs -o ~/.claude/skills/technical-seo-audit/SKILL.md https://romeoseo.com/skills/technical-seo-audit/SKILL.md
-```
-
-`install.sh` puts the skills in `~/.claude/skills` by default. Other places:
-
-| Flag | Installs to |
-| --- | --- |
-| `--codex` | `~/.codex/skills` |
-| `--agents` | `~/.agents/skills` |
-| `--project` | `./.claude/skills` (this project only) |
-| `--dir PATH` | anywhere |
-| `--skill SLUG` | just that skill (repeat for more) |
-| `--uninstall` | removes the RomeoSEO skills again |
-
-It never touches a folder it didn't install. To update, run `git pull` and `install.sh` again.
+The skills are instructions, not an automatic service integration. When you
+ask an assistant to use them, optional tasks may access websites or services
+you choose. The DataForSEO workflows send user-provided queries to
+`api.dataforseo.com` or `sandbox.dataforseo.com` and require `DATAFORSEO_LOGIN` and
+`DATAFORSEO_PASSWORD`; some calls incur charges. Those credentials and
+services are not required for the other skills.
 
 ## Use
 
